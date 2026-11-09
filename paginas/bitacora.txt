@@ -1,0 +1,53 @@
+BITACORA PROYECTO RUEDA Libre
+
+1- Petición del documento principal
+
+URL completa: http://127.0.0.1:5500/index.html
+Protocolo: http
+Puerto: 127.0.0.1:5500
+Ruta: /index.html
+Método HTTP: GET
+Código de estado: 304
+Interpretación:
+El navegador solicita el documento index.html al servidor local
+mediante una petición HTTP. El código de estado indica el resultado
+de esa petición.
+
+2- Prueba de una ruta inexistente
+
+URL solicitada: http://127.0.0.1:5500/promociones.html
+Código de estado: 404
+Interpretación:
+El navegador solicita el documento promociones.html al servidor local
+mediante una petición HTTP. El código de estado indica el resultado 404
+debido a que el documento no existe por lo cual no ha sido encontrado.
+
+3. Función de HTML, CSS y JAVASCRIPT
+
+HTML:
+Define la estructura y el contenido de la página.
+Ejemplo: crear el título "Rueda Libre" y el párrafo de bienvenida.
+
+CSS:
+Controla la presentación visual de la página.
+Ejemplo: mostrar el título en color verde y centrarlo en pantalla.
+
+JavaScript:
+Permite agregar interactividad y comportamiento.
+Ejemplo: crear un botón que muestre un mensaje cuando el usuario
+quiera consultar las bicicletas disponibles.
+
+4. Aprendizajes
+
+Aprendí a crear la estructura inicial de un sitio web,
+inicializar un repositorio Git y a observar peticiones HTTP en DevTools desde
+chrome.
+
+
+git init
+git branch -M main
+git remote add origin https://github.com/TU-USUARIO/rueda-libre.git
+git status
+git add index.html paginas img bitacora.txt
+git commit -m "Crear estructura inicial del sitio Rueda Libre"
+git push -u origin main
